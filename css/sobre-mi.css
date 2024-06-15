@@ -1,0 +1,22 @@
+/* Página Sobre Mí */
+#sobre-mi {
+    text-align: center;
+}
+
+#sobre-mi img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#sobre-mi ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sobre-mi ul li {
+    background-color: #f4f4f4;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos</title>
+    <link rel="stylesheet" href="css/proyectos.css" >
+    <link rel="stylesheet" href="css/global.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="sobre-mi.html">Sobre Mí</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="proyectos">
+            <h2>Mis Proyectos</h2>
+            <select id="filtro-categoria">
+                <option value="todos">Todos</option>
+                <option value="web">Web</option>
+                <option value="movil">Móvil</option>
+            </select>
+            <div class="proyecto" data-categoria="web">
+                <h3>Proyecto Web 1</h3>
+                <p>Descripción del proyecto web 1.</p>
+                <a href="#">Ver más</a>
+            </div>
+            <div class="proyecto" data-categoria="movil">
+                <h3>Proyecto Móvil 1</h3>
+                <p>Descripción del proyecto móvil 1.</p>
+                <a href="#">Ver más</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mi Nombre</p>
+    </footer>
+    <script src="js/global.js"></script>
+    <script src="js/proyecto.js"></script>
+</body>
+</html>

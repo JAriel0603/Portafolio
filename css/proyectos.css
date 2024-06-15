@@ -1,0 +1,42 @@
+/* CSS específico para la página de añadir proyecto */
+#añadir-proyecto {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#añadir-proyecto form {
+    display: flex;
+    flex-direction: column;
+}
+
+#añadir-proyecto label {
+    margin-top: 10px;
+}
+
+#añadir-proyecto input[type="text"],
+#añadir-proyecto input[type="url"],
+#añadir-proyecto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#añadir-proyecto input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#añadir-proyecto input[type="submit"]:hover {
+    background-color: #0056b3;
+}
